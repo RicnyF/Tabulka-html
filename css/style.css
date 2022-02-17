@@ -64,3 +64,17 @@ caption{
 .font-size {
     font-size: 35px;
 }
+.peking2 { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+
+}
+.font {
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}

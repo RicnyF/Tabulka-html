@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,54 +8,77 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   <header>
-       <h1>Tabulky v HTML</h1>
-   </header> 
-   <main>
-       <table>
-    <caption class="text-bold font-size"><bold> Snowboarding: Ženy U-rampa finále</bold></caption> 
-        <thead>
-        <tr>
-            <th>Umístění</th>
-            <th>Sportovec</th>
-            <th>Stát</th>
-            <th>Výkon</th>
-        </tr>
-    </thead>
-<tbody>
-    <tr class="gold">
-        <td class="text-center text-bold">1.</td>
-        <td>Kimová</td>
-        <td class="text-center"><img src="img/USA.png" alt="Vlajka USA" class="flag"> USA</td> 
-        <td class="text-right">94.00.</td>
-    </tr>
-    <tr class="silver">
-        <td class="text-center">2.</td>
-        <td>Tomitaová S.</td>
-        <td class="text-center"><img src="img/JPN.png" alt="Vlajka Japonska" class="flag"> Japonsko</td>
-        <td class="text-right">86.00.</td>
-    </tr>
-    <tr class="bronze">
-        <td class="text-center">3.</td>
-        <td>Cchaj</td>
-        <td class="text-center"><img src="img/CHN.png" alt="Vlajka Číny" class="flag"> Čína</td>
-        <td class="text-right">81.25</td>
-    </tr>
-</tbody>       
-<tfoot>
-    <tr>
-        <td colspan ="4" class="text-center font-size">Zimní olympijské hry 2022 Peking
-        </td>
-    </tr>
-</tfoot>
-</table>
-  <img class= "peking" src="img/peking.png" alt="Peking 2022">
-   </main>
-   
-   <footer>
-<hr>
-    Filip Říčný IT1
-   </footer>
+    <header>
+        <h1>Tabulky v HTML</h1>
+    </header>
+    <main>
+        <table>
+            <caption class="text-bold font-size">
+                Snowboarding: Ženy U-rampa finále
+            </caption>
+            <thead>
+                <tr>
+                    <th>Umístění</th>
+                    <th>Sportovec</th>
+                    <th>Stát</th>
+                    <th>Výkon</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="gold">
+                    <td class="text-center text-bold">1.</td>
+                    <td>Kimová</td>
+                    <td class="text-center"><img src="img/USA.png" alt="Vlajka USA" class="flag"> USA</td>
+                    <td class="text-right">94.00.</td>
+                </tr>
+                <tr class="silver">
+                    <td class="text-center">2.</td>
+                    <td>Tomitaová S.</td>
+                    <td class="text-center"><img src="img/JPN.png" alt="Vlajka Japonska" class="flag"> Japonsko</td>
+                    <td class="text-right">86.00.</td>
+                </tr>
+                <tr class="bronze">
+                    <td class="text-center">3.</td>
+                    <td>Cchaj</td>
+                    <td class="text-center"><img src="img/CHN.png" alt="Vlajka Číny" class="flag"> Čína</td>
+                    <td class="text-right">81.25</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="text-center font-size">Zimní olympijské hry 2022 Peking
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <img class="peking" src="img/peking.png" alt="Peking 2022">
+
+
+        <h2>Druhá tabulka</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <th rowspan="3"> <img class="peking2" src="img/peking.png" alt="Peking 2022"></th>
+                    <th colspan="2" class="font-size">Zimní olympijské hry 2022</th>
+
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="text-center font"><strong>Počet účastníků:</strong> 15000</td>
+
+                </tr>
+                <tr>
+                    <td class="font"><strong>Začátek:</strong> 4.února 2022</td>
+                    <td class="font"><strong>Konec:</strong> 20. února 2022</td>
+                </tr>
+            </tbody>
+    </main>
+    <footer>
+        <hr>
+        Filip Říčný IT1
+    </footer>
 </body>
+
 </html>
